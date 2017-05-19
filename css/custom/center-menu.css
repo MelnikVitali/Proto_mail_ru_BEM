@@ -1,0 +1,68 @@
+/* open block center-menu */
+.center-menu{
+	margin-bottom: 10px;              /*убираем нижнее поле будстрапа*/
+	background-color: #158ADE;         /* цвет меню*/
+	border: none;
+	border-radius: 0;	
+}
+.center-menu__button--toggle-color{      /*цвет переключателя выпадающего меню*/
+	background-color: white;
+}
+.center-menu__button--toggle-color:hover {    /*цвет переключателя выпадающего меню*/
+    background-color: #d9d9d9;
+}
+.center-menu__logo{
+	padding: 12px 57px !important;       /* логотип */
+}
+.center-menu__logo-img{
+	height: 28px;             /* логотип размер картинки */
+}
+.center-menu__list{
+	font-size: 15px;          /* размер текста в меню */
+}
+.center-menu__item:hover{     /* цвет ссылок при наведении*/
+	background-color: #d9d9d9;
+}
+.center-menu__link{            /* убираем цвет текста и поля будстрапа */
+	padding: 15px 10px !important;
+	color: white !important;	
+}
+.center-menu__link--active-backgraund{
+	background-color: #0B73BA !important; /* цвет активной ссылки*/
+}
+.center-menu__letter{        /*цвет кружка*/
+    background-color: #FFBA59;
+}
+.center-menu__vertical-line{    /*полоса вертикальная в меню*/
+	width: 1px;
+    height: 50px;
+    margin:0 4px;
+    background-color: #0B73BA;  
+}
+.center-menu__icon{
+	font-size: 19px;
+}
+.center-menu__search-menu{	
+	padding: 6px;                   /* уменьшение размера меню поиска*/
+    outline: none;
+    border: 0;
+    border-radius: 4px;
+}
+.center-menu__navbar-form{           /*выравнивание меню поиска по вертикале*/
+	margin-top: 8px;
+	padding: 3px;    
+}
+.center-menu__form-group{
+	background-color: white;
+	border-radius: 4px;
+}
+.search-menu__icon-triangle{
+	padding-right: 12px;
+	padding-top: 10px; 
+	font-size: 9px;                  /*paзмер стрелки в меню*/	
+}      
+.search-menu__icon-search{           /*размер лупы в меню*/
+	padding-top: 8px;
+	padding-right: 12px;
+	font-size: 15px;        
+}

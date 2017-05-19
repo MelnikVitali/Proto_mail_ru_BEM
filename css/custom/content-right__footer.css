@@ -1,0 +1,19 @@
+ /* open block content-right__footer */
+.footer__button-group{    /*  постраничная навигация маргин для  кнопки майл агент */
+ 	margin-bottom: 40px;
+ }
+.footer__button-fixed{     /* кнопка майл агент */
+	position: fixed;
+	bottom: 0;
+	right: 20px;
+}
+.button-fixed{	
+	font-weight: bold;
+	color: black;
+	background-color: #BEDDF2;
+	border-color: white;
+}
+.button-fixed__mail{
+	padding-right: 20px;
+	color: green;	
+}

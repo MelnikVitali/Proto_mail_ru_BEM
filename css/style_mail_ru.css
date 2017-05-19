@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,400i&subset=cyrillic');
+
+@import url('custom/options.css');
+
+@import url('lib/reset.css');
+
+/* end block top-nav */
+@import url('custom/top-nav.css');
+
+/* open block center-menu */
+@import url('custom/center-menu.css');
+
+/* open block content-left */
+@import url('custom/content-left.css');
+
+/* open block content-right */
+@import url('custom/content-right.css');
+
+/* open block content-right__table-letters */
+@import url('custom/content-right__table-letters.css');
+
+ /* open block content-right__footer */
+ @import url('custom/content-right__footer.css');
+
+/* media-queries */
+@import url('custom/media-queries.css');
+
+
+
+
+

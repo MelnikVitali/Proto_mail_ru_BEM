@@ -1,0 +1,53 @@
+/* media-queries */
+
+ /*убираем панель поиска  и группу кнопок фикс.меню*/
+@media screen and (max-width: 1010px){      
+	.center-menu__navbar-form,
+	.fixed-menu__btn-group--display-none-1010{
+		display: none !important;
+	}
+} 
+/*убираем ссылки верхнего и три ссылки центрального меню*/
+@media screen and (max-width: 884px){     
+	.display-none-884{
+		display: none;
+	}
+}
+@media screen and (max-width: 768px){     
+	.display-block-768{
+		display: block !important;
+	}
+	.display-none-768{
+		display: none !important;
+	}
+	.content-left{
+		float: none;
+		width: 100%;
+	}
+	.content-left__button{
+		position: relative;      /* убираем фикс.позицию кнопки */
+	}
+	.content-left__nav-list{
+		margin-top: 8px;        /* убираем место сверху под фикс.меню 38px*/
+	}
+	.content-right{
+		float: none;
+		width: 100%;
+		margin-left: 20px;
+	}
+	.content-right__table-letters{
+		margin-top: 8px;           /* убираем место сверху под фикс.меню 38 px*/
+	}
+	.content-right__fixed-menu{
+		position: relative;
+		width: inherit;
+		margin-top: 8px;      /* пробел над кнопками */  
+	}
+	.center-menu__logo{
+		padding-left: 25px !important;   /* убираем пробел логотипа */
+	}
+
+	
+	
+
+}

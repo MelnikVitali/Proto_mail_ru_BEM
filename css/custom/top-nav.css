@@ -1,0 +1,27 @@
+/* open block top-nav */
+.top-nav{                /* цвет блока верхнего меню*/	
+	padding: 1px 15px;
+	color: #1378CD;
+}
+.top-nav__item{           /* отступы и размер ссылок*/
+	padding: 6px 7px;
+	font-size: 12px;
+}
+.top-nav__link:hover{    /* цвет ссылок при посещении */
+	color: #F05754;
+}
+.top-nav__icon{          /* размер иконки стрелка*/
+	padding-left: 2px;
+	font-size: 8px;
+	
+}
+.top-nav__text--bolder{   /* жирность ccылки почта*/
+	font-weight: bold; 
+}
+.top-nav__number{
+	padding: 0 4px;       /* иконка с цыфрой возле почты*/
+	background: #FFA930;
+    color: white;
+    border-radius: 6px;
+    
+}

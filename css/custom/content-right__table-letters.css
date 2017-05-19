@@ -1,0 +1,71 @@
+/* open block content-right__table-letters */
+.content-right__table-letters{		
+	margin-top: 38px;          /*  место сверху под фикс.меню */
+}
+.table-letters{
+	/* width: 100%; */
+	margin-bottom: 10px;
+	font-size: 12px;
+	color: #0077CC;
+    white-space: nowrap;
+    vertical-align: middle !important;  /* убираем свойства будстрапа */
+	border: 1px solid #adadad;	
+	overflow-x: auto;	
+    cursor: pointer;
+}
+.table-letters__announced{        /* рекламная строка таблицы */
+	padding: 5px 10px 5px 15px;
+	background-color: #E4E4E4;
+	border: 1px solid #adadad;
+	border-radius: 3px;
+	border-bottom: 0; 	
+}
+.announced__group-text{        /* текст рекламы по центру */
+	padding-top: 2px;
+}
+.announced__text--left-bold{        /* рекламная строка таблицы жирным */
+	padding-right: 15px;
+	font-size: 9px;
+	font-weight: bold;
+	color: black;
+	text-decoration: underline;	
+}
+.announced__text--underline{
+	text-decoration: underline;
+}
+.announced__icon--color-red{
+	color: red;
+	position: static;
+}
+.announced__icon--size-right{      /* правый крестик - закрыть*/
+    font-size:20px;
+    position: static;
+}
+.table-letters__input{
+	cursor: pointer;
+}
+.table-letters__td{
+	vertical-align: middle !important;
+    white-space: nowrap;
+}
+.table-letters__td--color{
+	background-color: #E4E4E4; 
+}
+.table-letters__td--text-bold{
+	font-weight: bold;
+}
+.table-letters__td--padd-left{
+	padding-left: 30px !important;
+}
+.table-letters__circle{	
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background: #39A4F0;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+.table-letters__image{
+	width: 25px;
+}
