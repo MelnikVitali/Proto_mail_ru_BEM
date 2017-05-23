@@ -16,6 +16,9 @@
 /* open block content-right */
 @import url('custom/content-right.css');
 
+/* open block content-right__fixed-menu */
+@import url('custom/content-right__fixed-menu.css');
+
 /* open block content-right__table-letters */
 @import url('custom/content-right__table-letters.css');
 

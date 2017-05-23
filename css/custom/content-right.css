@@ -5,35 +5,3 @@
 	width:-webkit-calc(100% - 250px);
 	padding-right: 20px;
 }
-/* open block content-right__fixed-menu */
-.content-right__fixed-menu{
-	position: fixed;
-	width: calc(100% - 270px);
-  	width: -webkit-calc(100% - 270px);
-  	margin-bottom: 7px;
-}
-.fixed-menu__btn-group--margin-left{       /* добавляем пробел между кнопками */
-	margin-left: 3px;
-}
-.fixed-menu__button{  
-  	color: #333;
-  	background-color: #E0E0E0 ;    /* цвет кнопок */
-  	border-color: #adadad ;        
-}
-.fixed-menu__button:hover {
-  	color: #333;
-  	background-color: #fff;
- 	border-color: #adadad ;
-}
-.fixed-menu__button:focus{
-	outline: 0;
-}
-.fixed-menu__button--active{
-	background-color: white;
-}
-.button__icon--color-blue{
-	color: #0077CC;        /* цвет иконки круг */
-}
-.button__icon--color-red{
-	color: red;             /* цвет иконки флажек */
-}

@@ -3,15 +3,19 @@
 	width: 250px;
 	padding-left: 20px;     /*  левый контент входящие */
 	font-size: 15px;
-	overflow: hidden;
 	z-index: 1;            /* убираем текст под кнопку Написать письмо */
 }
+.content-left__fixed-menu{
+	position: sticky;
+    top: 10px;
+    z-index: 3;
+    overflow: hidden;
+    margin-bottom: 7px;
+}
 .content-left__button{       /*  Кнопка слева- написать письмо */
-	position: fixed;
 	color: #333;
   	background-color: #E0E0E0;    /* цвет кнопок */
-    border-color: #adadad;   
-    z-index: 3;
+    border-color: #adadad; 
 }
 .content-left__button:hover {
 	color: #333;
@@ -21,13 +25,11 @@
 .content-left__button:focus{
 	outline: 0;
 }
-.content-left__nav-list{
-	margin-top: 38px;    /*  место сверху под фикс.меню */  
+.content-left__nav-list{ 
     margin-right: 10px;
 	border: 1px solid #adadad;	
     border-radius: 3px;
 }
-
 .content-left__link--bold-number{
 	font-weight: bold;                 /* цифра справа в меню */
 }

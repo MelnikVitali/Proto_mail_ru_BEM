@@ -43,8 +43,7 @@
                 <a href="#" class="top-nav__link"> Поиск</a>
             </li>
             <li class="dropdown top-nav__item float-l display-none-884">
-                <a href="#" class="dropdown-toggle top-nav__link" data-toggle="dropdown" role="button"
-                   aria-expanded="false">Все проекты
+                <a href="#" class="dropdown-toggle top-nav__link" data-toggle="dropdown" role="button" aria-expanded="false">Все проекты
                     <span class="glyphicon glyphicon-triangle-bottom top-nav__icon"></span>
                 </a>
                 <ul class="dropdown-menu" role="menu">
@@ -159,18 +158,19 @@
     <div class="content">
         <!-- open block content-left -->
         <div class="content-left float-l">
+        <div class="content-left__fixed-menu">
             <button type="button" class="btn btn-sm content-left__button" title="Написать письмо">
                 <span class="glyphicon glyphicon-edit"></span> Написать письмо
             </button>
+        </div>
             <ul class="nav nav-stacked nav-list content-left__nav-list">
                 <li class="content-left__item" id="accordion">
-                    <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne"
-                       class="content-left__link content-left__link--active content-left__link--bold-number">
+                    <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" class="content-left__link content-left__link--active content-left__link--bold-number">
                         <span class="glyphicon glyphicon-triangle-right content-left__icon-caret"></span>
                         <span class="glyphicon glyphicon-envelope"></span> Входящие
                         <span class="float-r">29</span>
                     </a>
-                    <div id="collapseOne" class="panel-collapse collapse">                        
+                    <div id="collapseOne" class="panel-collapse collapse">
                         <ul class="nav nav-stacked nav-list__dropdown">
                             <li class="dropdown__item">
                                 <a class="dropdown__link" href="#">
@@ -273,7 +273,7 @@
                         <li class="bottom-icon__item" title="С вложениями">
                             <a class="bottom-icon__link" href="#">
                                 <span class="glyphicon glyphicon-paperclip bottom-icon__paperclip"></span>
-									 </a>
+                            </a>
                         </li>
                     </ul>
                 </li>
@@ -284,57 +284,57 @@
         <div class="content-right float-l">
             <!-- open block content-right__fixed-menu -->
             <div class="content-right__fixed-menu">
-                <div class="btn-group fixed-menu__btn-group">
-                    <button type="button" class="btn btn-sm dropdown-toggle fixed-menu__button" data-toggle="dropdown"
-						 	title="Выделить">
-                        <span class="glyphicon glyphicon-unchecked"></span>
-                        <span class="caret"></span>
-                    </button>
-                    <ul class="dropdown-menu" role="menu">
-                        <li><a href="#">Выделить все письма</a></li>
-                        <li><a href="#">Непрочитанные</a></li>
-                        <li><a href="#">Прочитанные</a></li>
-                        <li><a href="#">Помеченные флажком</a></li>
-                        <li><a href="#">С файлами</a></li>
-                        <li class="divider"></li>
-                        <li><a href="#">Снять выделение</a></li>
-                    </ul>
-                </div>
-                <!-- Группируем кнопки вместе .btn-group -->
-                <div class="btn-group fixed-menu__btn-group fixed-menu__btn-group--margin-left">
-                    <button type="button" class="btn btn-sm fixed-menu__button fixed-menu__button--margin-left"
-						  title="Удалить">
-                        <span class="glyphicon glyphicon-trash"> Удалить</span>
-                    </button>
-                    <button type="button" class="btn btn-sm fixed-menu__button dropdown-toggle" data-toggle="dropdown"
-						  title="Удалить">
-                        <span class="caret"></span>
-                    </button>
-                    <ul class="dropdown-menu" role="menu">
-                        <li><a href="#">Выделить все письма</a></li>
-                        <li><a href="#">Непрочитанные</a></li>
-                        <li><a href="#">Прочитанные</a></li>
-                        <li><a href="#">Помеченные флажком</a></li>
-                        <li><a href="#">С файлами</a></li>
-                        <li class="divider"></li>
-                        <li><a href="#">Снять выделение</a></li>
-                    </ul>
-                </div>
-                <div class="btn-group fixed-menu__btn-group fixed-menu__btn-group--margin-left">
-                    <button type="button" class="btn btn-sm fixed-menu__button fixed-menu__button--margin-left
+                <!--левый блок нижней навигации -->
+                <div class="float-l fixed-menu__left-btn">
+                    <div class="btn-group fixed-menu__btn-group">
+                        <button type="button" class="btn btn-sm dropdown-toggle fixed-menu__button" data-toggle="dropdown" title="Выделить">
+                            <span class="glyphicon glyphicon-unchecked"></span>
+                            <span class="caret"></span>
+                        </button>
+                        <ul class="dropdown-menu" role="menu">
+                            <li><a href="#">Выделить все письма</a></li>
+                            <li><a href="#">Непрочитанные</a></li>
+                            <li><a href="#">Прочитанные</a></li>
+                            <li><a href="#">Помеченные флажком</a></li>
+                            <li><a href="#">С файлами</a></li>
+                            <li class="divider"></li>
+                            <li><a href="#">Снять выделение</a></li>
+                        </ul>
+                    </div>
+                    <!-- Группируем кнопки вместе .btn-group -->
+                    <div class="btn-group fixed-menu__btn-group fixed-menu__btn-group--margin-left">
+                        <button type="button" class="btn btn-sm fixed-menu__button fixed-menu__button--margin-left" title="Удалить">
+                            <span class="glyphicon glyphicon-trash"> Удалить</span>
+                        </button>
+                        <button type="button" class="btn btn-sm fixed-menu__button dropdown-toggle" data-toggle="dropdown" title="Удалить">
+                            <span class="caret"></span>
+                        </button>
+                        <ul class="dropdown-menu" role="menu">
+                            <li><a href="#">Выделить все письма</a></li>
+                            <li><a href="#">Непрочитанные</a></li>
+                            <li><a href="#">Прочитанные</a></li>
+                            <li><a href="#">Помеченные флажком</a></li>
+                            <li><a href="#">С файлами</a></li>
+                            <li class="divider"></li>
+                            <li><a href="#">Снять выделение</a></li>
+                        </ul>
+                    </div>
+                    <div class="btn-group fixed-menu__btn-group fixed-menu__btn-group--margin-left">
+                        <button type="button" class="btn btn-sm fixed-menu__button fixed-menu__button--margin-left
                     display-none-884" title="Спам">
-                        <span class="glyphicon glyphicon-thumbs-down"></span> Спам
-                    </button>
-                </div>
-                <!-- Группируем кнопки вместе .btn-group -->
-                <div class="btn-group fixed-menu__btn-group fixed-menu__btn-group--display-none-1010
+                            <span class="glyphicon glyphicon-thumbs-down"></span> Спам
+                        </button>
+                    </div>
+                    <!-- Группируем кнопки вместе .btn-group -->
+                    <div class="btn-group fixed-menu__btn-group fixed-menu__btn-group--display-none-1010
                 fixed-menu__btn-group--margin-left">
-                    <button type="button" class="btn btn-sm fixed-menu__button" title="Переместить">
-                        <span class="glyphicon glyphicon-folder-open"> Переместить</span>
-                    </button>
-                    <button type="button" class="btn btn-sm fixed-menu__button" title="Еще">
-                        <span class="glyphicon glyphicon-th-list"> Еще</span>
-                    </button>
+                        <button type="button" class="btn btn-sm fixed-menu__button" title="Переместить">
+                            <span class="glyphicon glyphicon-folder-open"> Переместить</span>
+                        </button>
+                        <button type="button" class="btn btn-sm fixed-menu__button" title="Еще">
+                            <span class="glyphicon glyphicon-th-list"> Еще</span>
+                        </button>
+                    </div>
                 </div>
                 <!-- правый блок нижней навигации -->
                 <div class="float-r fixed-menu__right-btn display-none-768">
@@ -345,7 +345,7 @@
                         </button>
                         <button type="button" class="btn btn-sm fixed-menu__button">1</button>
                         <button type="button" class="btn btn-sm fixed-menu__button fixed-menu__button--active">2
-								</button>
+                        </button>
                         <button type="button" class="btn btn-sm fixed-menu__button" title="Следующая страница">
                             <span class="glyphicon glyphicon-triangle-right"></span>
                         </button>
@@ -363,8 +363,7 @@
                         </button>
                     </div>
                     <div class="btn-group fixed-menu__btn-group fixed-menu__btn-group--margin-left">
-                        <button type="button" class="btn btn-sm dropdown-toggle fixed-menu__button"
-							   data-toggle="dropdown" title="Переключить вид"> Вид
+                        <button type="button" class="btn btn-sm dropdown-toggle fixed-menu__button" data-toggle="dropdown" title="Переключить вид"> Вид
                             <span class="caret"></span>
                         </button>
                         <ul class="dropdown-menu dropdown-menu-right button__dropdown--margin" role="menu">
@@ -382,6 +381,7 @@
                 </div>
             </div>
             <!-- end block content-right__fixed-menu -->
+            <div class="clear"></div>
             <!--   open block content-right__table-letters -->
             <div class="table-responsive content-right__table-letters">
                 <table class="table table-condensed table-hover table-letters">
@@ -389,12 +389,12 @@
                         <div class="announced__group-text float-l">
                             <span class="announced__text announced__text--left-bold">Реклама</span>
                             <span class="glyphicon glyphicon-warning-sign announced__icon announced__icon--color-red">
-									 </span>
+                                     </span>
                             <span class="announced__text announced__text--underline">Курсы Java в Киеве от 1750 грн.
-									 </span> Очное обучение. Преподаватели из топовых IT-компаний Записывайтесь!
+                                     </span> Очное обучение. Преподаватели из топовых IT-компаний Записывайтесь!
                         </div>
                         <span class="close float-r announced__icon announced__icon--size-right" title="Закрыть">&times
-								</span>
+                                </span>
                     </caption>
                     <tbody>
                         <tr class="table-letters__tr">
@@ -410,7 +410,7 @@
                             <td class="table-letters__td table-letters__td--text-bold">"Emin Osmanov"</td>
                             <td class="table-letters__td table-letters__td--padd-left">
                                 <span class="table-letters__td--text-bold">[Вакансии Украины V-U.com.ua(Бесплатный
-										  кадровый портал)]</span> Facebook Emin Osmanov сд
+                                          кадровый портал)]</span> Facebook Emin Osmanov сд
                             </td>
                             <td class="table-letters__td table-letters__td--text-bold">17:32</td>
                         </tr>
@@ -427,7 +427,7 @@
                             <td class="table-letters__td table-letters__td--text-bold">"Emin Osmanov"</td>
                             <td class="table-letters__td table-letters__td--padd-left">
                                 <span class="table-letters__td--text-bold">[Вакансии Украины V-U.com.ua(Бесплатный
-										  кадровый портал)]</span> Facebook Emin Osmanov сд
+                                          кадровый портал)]</span> Facebook Emin Osmanov сд
                             </td>
                             <td class="table-letters__td table-letters__td--text-bold">17:32</td>
                         </tr>
@@ -444,7 +444,7 @@
                             <td class="table-letters__td table-letters__td--text-bold">"Emin Osmanov"</td>
                             <td class="table-letters__td table-letters__td--padd-left">
                                 <span class="table-letters__td--text-bold">[Вакансии Украины V-U.com.ua(Бесплатный
-										  кадровый портал)]</span> Facebook Emin Osmanov сд
+                                          кадровый портал)]</span> Facebook Emin Osmanov сд
                             </td>
                             <td class="table-letters__td table-letters__td--text-bold">17:32</td>
                         </tr>
@@ -461,7 +461,7 @@
                             <td class="table-letters__td table-letters__td--text-bold">"Emin Osmanov"</td>
                             <td class="table-letters__td table-letters__td--padd-left">
                                 <span class="table-letters__td--text-bold">[Вакансии Украины V-U.com.ua(Бесплатный
-										  кадровый портал)]</span> Facebook Emin Osmanov сд
+                                          кадровый портал)]</span> Facebook Emin Osmanov сд
                             </td>
                             <td class="table-letters__td table-letters__td--text-bold">17:32</td>
                         </tr>
@@ -478,7 +478,7 @@
                             <td class="table-letters__td table-letters__td--text-bold">"Emin Osmanov"</td>
                             <td class="table-letters__td table-letters__td--padd-left">
                                 <span class="table-letters__td--text-bold">[Вакансии Украины V-U.com.ua(Бесплатный
-										  кадровый портал)]</span> Facebook Emin Osmanov сд
+                                          кадровый портал)]</span> Facebook Emin Osmanov сд
                             </td>
                             <td class="table-letters__td table-letters__td--text-bold">17:32</td>
                         </tr>
@@ -495,7 +495,7 @@
                             <td class="table-letters__td table-letters__td--text-bold">"Emin Osmanov"</td>
                             <td class="table-letters__td table-letters__td--padd-left">
                                 <span class="table-letters__td--text-bold">[Вакансии Украины V-U.com.ua(Бесплатный
-										  кадровый портал)]</span> Facebook Emin Osmanov сд
+                                          кадровый портал)]</span> Facebook Emin Osmanov сд
                             </td>
                             <td class="table-letters__td table-letters__td--text-bold">17:32</td>
                         </tr>
@@ -512,7 +512,7 @@
                             <td class="table-letters__td table-letters__td--text-bold">"Emin Osmanov"</td>
                             <td class="table-letters__td table-letters__td--padd-left">
                                 <span class="table-letters__td--text-bold">[Вакансии Украины V-U.com.ua(Бесплатный
-										  кадровый портал)]</span> Facebook Emin Osmanov сд
+                                          кадровый портал)]</span> Facebook Emin Osmanov сд
                             </td>
                             <td class="table-letters__td table-letters__td--text-bold">17:32</td>
                         </tr>
@@ -529,7 +529,7 @@
                             <td class="table-letters__td table-letters__td--text-bold">"Emin Osmanov"</td>
                             <td class="table-letters__td table-letters__td--padd-left">
                                 <span class="table-letters__td--text-bold">[Вакансии Украины V-U.com.ua(Бесплатный
-										  кадровый портал)]</span> Facebook Emin Osmanov сд
+                                          кадровый портал)]</span> Facebook Emin Osmanov сд
                             </td>
                             <td class="table-letters__td table-letters__td--text-bold">17:32</td>
                         </tr>
@@ -546,7 +546,7 @@
                             <td class="table-letters__td table-letters__td--text-bold">"Emin Osmanov"</td>
                             <td class="table-letters__td table-letters__td--padd-left">
                                 <span class="table-letters__td--text-bold">[Вакансии Украины V-U.com.ua(Бесплатный
-										  кадровый портал)]</span> Facebook Emin Osmanov сд
+                                          кадровый портал)]</span> Facebook Emin Osmanov сд
                             </td>
                             <td class="table-letters__td table-letters__td--text-bold">17:32</td>
                         </tr>
@@ -563,7 +563,7 @@
                             <td class="table-letters__td table-letters__td--text-bold">"Emin Osmanov"</td>
                             <td class="table-letters__td table-letters__td--padd-left">
                                 <span class="table-letters__td--text-bold">[Вакансии Украины V-U.com.ua(Бесплатный
-										  кадровый портал)]</span> Facebook Emin Osmanov сд
+                                          кадровый портал)]</span> Facebook Emin Osmanov сд
                             </td>
                             <td class="table-letters__td table-letters__td--text-bold">17:32</td>
                         </tr>
@@ -580,7 +580,7 @@
                             <td class="table-letters__td table-letters__td--text-bold">"Emin Osmanov"</td>
                             <td class="table-letters__td table-letters__td--padd-left">
                                 <span class="table-letters__td--text-bold">[Вакансии Украины V-U.com.ua(Бесплатный
-										  кадровый портал)]</span> Facebook Emin Osmanov сд
+                                          кадровый портал)]</span> Facebook Emin Osmanov сд
                             </td>
                             <td class="table-letters__td table-letters__td--text-bold">17:32</td>
                         </tr>
@@ -597,7 +597,7 @@
                             <td class="table-letters__td table-letters__td--text-bold">"Emin Osmanov"</td>
                             <td class="table-letters__td table-letters__td--padd-left">
                                 <span class="table-letters__td--text-bold">[Вакансии Украины V-U.com.ua(Бесплатный
-										  кадровый портал)]</span> Facebook Emin Osmanov сд
+                                          кадровый портал)]</span> Facebook Emin Osmanov сд
                             </td>
                             <td class="table-letters__td  table-letters__td--text-bold">17:32</td>
                         </tr>
@@ -614,7 +614,7 @@
                             <td class="table-letters__td table-letters__td--text-bold">"Emin Osmanov"</td>
                             <td class="table-letters__td table-letters__td--padd-left">
                                 <span class="table-letters__td--text-bold">[Вакансии Украины V-U.com.ua(Бесплатный
-										  кадровый портал)]</span> Facebook Emin Osmanov сд
+                                          кадровый портал)]</span> Facebook Emin Osmanov сд
                             </td>
                             <td class="table-letters__td  table-letters__td--text-bold">17:32</td>
                         </tr>
@@ -631,7 +631,7 @@
                             <td class="table-letters__td table-letters__td--text-bold">"Emin Osmanov"</td>
                             <td class="table-letters__td table-letters__td--padd-left">
                                 <span class="table-letters__td--text-bold">[Вакансии Украины V-U.com.ua(Бесплатный
-										  кадровый портал)]</span> Facebook Emin Osmanov сд
+                                          кадровый портал)]</span> Facebook Emin Osmanov сд
                             </td>
                             <td class="table-letters__td table-letters__td--text-bold">17:32</td>
                         </tr>
