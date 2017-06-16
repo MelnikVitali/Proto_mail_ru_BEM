@@ -2,8 +2,8 @@
 .content-right__fixed-menu{
 	  position: sticky;
     top: 10px;
-  	margin-bottom: 7px;
-    z-index: 1;
+    overflow: visible;
+    z-index: 3;
 }
 .fixed-menu__btn-group--margin-left{       /* добавляем пробел между кнопками */
 	  margin-left: 3px;

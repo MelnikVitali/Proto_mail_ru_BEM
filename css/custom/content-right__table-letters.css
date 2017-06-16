@@ -1,7 +1,9 @@
 /* open block content-right__table-letters */
 
+.content-right__table-letters{
+	margin-top: 7px;   /* поле над таблицей к фикс. меню */
+}
 .table-letters{
-	margin-top: 7px;
 	margin-bottom: 10px;
 	font-size: 12px;
 	color: #0077CC;
