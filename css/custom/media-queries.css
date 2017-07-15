@@ -41,8 +41,8 @@
 	.center-menu__logo{
 		padding-left: 25px !important;   /* убираем пробел логотипа */
 	}
-
-	
-	
+	.footer__button-group{
+		margin-top: 0;         /* Уменьшаем,так как добавляется маргин будстрапа */
+	}
 
 }

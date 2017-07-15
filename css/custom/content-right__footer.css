@@ -1,5 +1,6 @@
  /* open block content-right__footer */
 .footer__button-group{    /*  постраничная навигация маргин для  кнопки майл агент */
+	margin-top: 10px;
  	margin-bottom: 40px;
  }
 .footer__button-fixed{     /* кнопка майл агент */
